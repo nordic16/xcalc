@@ -1,9 +1,0 @@
-/Users/xkyfal/Documents/programming/rust/xcalc/target/debug/deps/libgtk4_macros-3667e6a6353e6c4c.dylib: /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/lib.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/attribute_parser.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/composite_template_derive.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/template_callbacks_attribute.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/util.rs
-
-/Users/xkyfal/Documents/programming/rust/xcalc/target/debug/deps/gtk4_macros-3667e6a6353e6c4c.d: /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/lib.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/attribute_parser.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/composite_template_derive.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/template_callbacks_attribute.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/util.rs
-
-/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/lib.rs:
-/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/attribute_parser.rs:
-/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/composite_template_derive.rs:
-/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/template_callbacks_attribute.rs:
-/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.7.2/src/util.rs:
