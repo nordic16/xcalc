@@ -1,0 +1,11 @@
+/Users/xkyfal/Documents/programming/rust/xcalc/target/debug/deps/bitflags-1be705217aa45107.rmeta: /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/lib.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/iter.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/parser.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/traits.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/public.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/internal.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/external.rs
+
+/Users/xkyfal/Documents/programming/rust/xcalc/target/debug/deps/bitflags-1be705217aa45107.d: /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/lib.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/iter.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/parser.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/traits.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/public.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/internal.rs /Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/external.rs
+
+/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/lib.rs:
+/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/iter.rs:
+/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/parser.rs:
+/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/traits.rs:
+/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/public.rs:
+/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/internal.rs:
+/Users/xkyfal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.4.1/src/external.rs:
