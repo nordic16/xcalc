@@ -1,7 +1,7 @@
 /// Mod that handles the ui aspect of the app
 
 use gtk::prelude::*;
-use gtk::{glib, Application, ApplicationWindow};
+use gtk::{glib, Application, ApplicationWindow, Builder};
 
 /// Starts event loop
 pub fn start(app_id: &str) -> glib::ExitCode {
@@ -11,11 +11,15 @@ pub fn start(app_id: &str) -> glib::ExitCode {
 }
 
 fn build_ui(app: &Application) {
-    let window = ApplicationWindow::builder()
-        .application(app)
-        .title("xcalc")
-        .build();
 
+    let src = include_str!("ui.ui");
+    let builder = Builder::from_string(src);
+    let window = builder.object::<ApplicationWindow>("window").expect("couldn't get window");
+    
+    window.set_application(Some(app));
+
+
+    /*
     let layout = gtk::Box::builder()
         .orientation(gtk::Orientation::Vertical)
         .hexpand(true)
@@ -54,7 +58,7 @@ fn build_ui(app: &Application) {
     layout.append(&grid); 
 
     window.set_child(Some(&layout));
-
+*/
     // Present window
     window.present();
 }
