@@ -5,14 +5,40 @@
   <requires lib="gtk" version="4.12"/>
   <object class="GtkApplicationWindow" id="window">
     <property name="css-name">window</property>
+    <property name="default-height">400</property>
+    <property name="default-width">200</property>
+    <property name="height-request">400</property>
     <property name="hexpand">True</property>
     <property name="hexpand-set">True</property>
+    <property name="resizable">False</property>
     <property name="vexpand">True</property>
     <property name="vexpand-set">True</property>
+    <property name="width-request">200</property>
     <child>
-      <object class="GtkCenterBox">
-        <property name="center-widget">
-          <object class="GtkGrid" id="num_grid">
+      <object class="GtkFlowBox">
+        <property name="hexpand">True</property>
+        <property name="hexpand-set">True</property>
+        <property name="homogeneous">True</property>
+        <property name="max-children-per-line">2</property>
+        <property name="orientation">vertical</property>
+        <property name="row-spacing">5</property>
+        <property name="vexpand">True</property>
+        <property name="vexpand-set">True</property>
+        <child>
+          <object class="GtkTextView">
+            <property name="buffer">
+              <object class="GtkTextBuffer" id="textbuf"/>
+            </property>
+            <property name="editable">False</property>
+            <property name="hexpand">True</property>
+            <property name="hexpand-set">True</property>
+            <property name="input-purpose">number</property>
+            <property name="vexpand">True</property>
+            <property name="vexpand-set">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkGrid" id="num_grid_3">
             <property name="column-homogeneous">True</property>
             <property name="column-spacing">2</property>
             <property name="hexpand">True</property>
@@ -215,25 +241,7 @@
               </object>
             </child>
           </object>
-        </property>
-        <property name="hexpand">True</property>
-        <property name="hexpand-set">True</property>
-        <property name="orientation">vertical</property>
-        <property name="start-widget">
-          <object class="GtkTextView">
-            <property name="buffer">
-              <object class="GtkTextBuffer" id="textbuf"/>
-            </property>
-            <property name="editable">False</property>
-            <property name="hexpand">True</property>
-            <property name="hexpand-set">True</property>
-            <property name="input-purpose">number</property>
-            <property name="vexpand">True</property>
-            <property name="vexpand-set">True</property>
-          </object>
-        </property>
-        <property name="vexpand">True</property>
-        <property name="vexpand-set">True</property>
+        </child>
       </object>
     </child>
   </object>
