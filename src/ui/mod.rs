@@ -20,28 +20,6 @@ fn build_ui(app: &Application) {
 
 
     /*
-    let layout = gtk::Box::builder()
-        .orientation(gtk::Orientation::Vertical)
-        .hexpand(true)
-        .vexpand(true)
-        .valign(gtk::Align::Fill)
-        .halign(gtk::Align::Fill)
-        .margin_top(5)
-        .margin_bottom(5)
-        .build();
-
-
-    let field = gtk::TextView::builder()
-        .editable(true)
-        .build();
-    
-    let grid = gtk::Grid::builder()
-        .column_spacing(2)
-        .row_spacing(2)
-        .valign(gtk::Align::Fill)
-        .halign(gtk::Align::Fill)
-        .build();
-
     for rows in 0..3 {
         for cols in 0..3 {
             // Will produce the following output: 1 2 3 | 4 5 6 | 7 8 9
@@ -60,5 +38,27 @@ fn build_ui(app: &Application) {
     window.set_child(Some(&layout));
 */
     // Present window
+    
+    let grid = builder.object::<gtk::Grid>("num_grid_3").expect("Couldn't find grid");
+    let num_field = builder.object::<gtk::TextView>("num_field").expect("Couldn't find num field");
+
+    // There may be a better way to this.    
+    for x in grid.observe_children().into_iter() {
+        let btn = x.unwrap().dynamic_cast::<gtk::Button>().expect("Couldn't get children.");
+
+        // I really need to find a way to stop using .clone().
+        let tmp = num_field.clone();
+
+        btn.connect_clicked(move |y: &gtk::Button| {
+            let value = y.label().expect("Couldn't get number from label (for some weird reason)")
+                .parse::<i32>().unwrap();
+
+            // Appends text to the buffer.
+            let buf = tmp.buffer();
+            let text = buf.text(&buf.start_iter(), &buf.end_iter(), true);
+            tmp.buffer().set_text(&format!("{}{}", text, value));
+        });
+    }
+
     window.present();
 }

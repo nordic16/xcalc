@@ -25,7 +25,7 @@
         <property name="vexpand">True</property>
         <property name="vexpand-set">True</property>
         <child>
-          <object class="GtkTextView">
+          <object class="GtkTextView" id="num_field">
             <property name="buffer">
               <object class="GtkTextBuffer" id="textbuf"/>
             </property>
@@ -67,32 +67,6 @@
                 <property name="margin-start">6</property>
                 <layout>
                   <property name="column">2</property>
-                  <property name="column-span">1</property>
-                  <property name="row">0</property>
-                  <property name="row-span">1</property>
-                </layout>
-              </object>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="label">+</property>
-                <property name="margin-end">6</property>
-                <property name="margin-start">6</property>
-                <layout>
-                  <property name="column">3</property>
-                  <property name="column-span">1</property>
-                  <property name="row">0</property>
-                  <property name="row-span">1</property>
-                </layout>
-              </object>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="label">-</property>
-                <property name="margin-end">6</property>
-                <property name="margin-start">6</property>
-                <layout>
-                  <property name="column">4</property>
                   <property name="column-span">1</property>
                   <property name="row">0</property>
                   <property name="row-span">1</property>
@@ -177,63 +151,11 @@
             </child>
             <child>
               <object class="GtkButton">
-                <property name="label">x</property>
-                <property name="margin-end">6</property>
-                <property name="margin-start">6</property>
-                <layout>
-                  <property name="column">3</property>
-                  <property name="column-span">1</property>
-                  <property name="row">1</property>
-                  <property name="row-span">1</property>
-                </layout>
-              </object>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="label">÷</property>
-                <property name="margin-end">6</property>
-                <property name="margin-start">6</property>
-                <layout>
-                  <property name="column">4</property>
-                  <property name="column-span">1</property>
-                  <property name="row">1</property>
-                  <property name="row-span">1</property>
-                </layout>
-              </object>
-            </child>
-            <child>
-              <object class="GtkButton">
                 <property name="label">3</property>
                 <property name="margin-end">6</property>
                 <property name="margin-start">6</property>
                 <layout>
                   <property name="column">2</property>
-                  <property name="column-span">1</property>
-                  <property name="row">2</property>
-                  <property name="row-span">1</property>
-                </layout>
-              </object>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="label">C</property>
-                <property name="margin-end">6</property>
-                <property name="margin-start">6</property>
-                <layout>
-                  <property name="column">3</property>
-                  <property name="column-span">1</property>
-                  <property name="row">2</property>
-                  <property name="row-span">1</property>
-                </layout>
-              </object>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="label">=</property>
-                <property name="margin-end">6</property>
-                <property name="margin-start">6</property>
-                <layout>
-                  <property name="column">4</property>
                   <property name="column-span">1</property>
                   <property name="row">2</property>
                   <property name="row-span">1</property>
